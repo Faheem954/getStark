@@ -1,0 +1,101 @@
+.home4{
+    margin-top:-2% ;
+    height: 100%;
+    background-color: #edede0;
+}
+.home4>img{
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-bottom: 6%;
+    height:90%;
+width: 70%;
+
+}
+.home4-part2{
+ font-size: 56px; 
+ width: 50%;
+ margin: auto;  
+margin-left: 30%; 
+ color: #10284B;
+ font-weight: 700;
+}
+.home4-part2-chg{
+    margin: 0%;
+    margin-bottom:0px ;
+    padding: 0%;
+    display:inline-block;
+    height: 10%;
+    width: fit-content;
+/* background-color: #fedb63; */
+    border-top-right-radius: 0px;
+    transform: skew(-30deg);
+   color: #10284B;
+   height: 70px;
+    background-image: linear-gradient(to bottom right, transparent 50%,#fedb63 50%),
+      linear-gradient(#fedb63, 
+      #fedb63), 
+      linear-gradient(to top left,
+       transparent 50%,#fedb63 50%);
+background-repeat: none;
+background-size:100%;
+}
+.home4-part2-sp1{
+    height: 70px;
+    display:inline-block;
+    transform: skew(30deg); 
+ /* margin: 0%; */
+    padding: 0%;
+    /* height: 10%; */
+    /* width: fit-content;
+
+    border-top-right-radius: 0px; */
+    /* background-color: yellow; */
+    
+}
+.home4-part2-sp2{
+    text-align: center;
+    margin-top: -10%;
+    margin-left: 28%;
+    /* font-weight: 700; */
+}
+.home4-part2-p1{
+    width: 90%;
+    font-size: 1.45rem;
+    color: #10284B;
+    font-weight: 100;
+    /* align-items: center; */
+    text-align: center;
+    line-height: 1.5rem;
+    /* justify-content: center; */
+}
+
+.home4-part2-btn1{
+ 
+    font-size: 16px;
+background-color: #381Fd1;
+border-radius: 6px;
+color: #fff;
+padding: 9px 34px;
+margin-left: 30%;
+
+}
+.home4-part2-btn1-4{
+    /* border: 2px solid red; */
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #381Fd1;
+    border-radius: 6px;
+    color: #fff;
+    padding: 9px 34px;
+    margin-left: 30%;
+}
+.home4-part2-btn1-44{
+    text-decoration: none;
+    /* border: 2px solid red; */
+    font-size: 16px;
+background-color: #381Fd1;
+border-radius: 6px;
+color: #fff;
+padding: 9px 34px;
+margin-left: 30%;
+}

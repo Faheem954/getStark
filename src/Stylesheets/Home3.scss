@@ -1,0 +1,102 @@
+.home3{
+    margin-top: -2%;
+ margin-bottom: 2%;
+    height: 150%;
+    background-color: #edede0;
+}
+.home3-p1{
+    text-align: center;
+    color: #381fd1;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    word-spacing: 0.5rem;
+    text-transform: capitalize;
+}
+.home3-p2,.home3-p3,.home3-p4{
+    color: #10284B;
+font-size: 3.5rem;
+font-weight: 700;
+text-align: center;
+}
+.home3-p2,.home3-p3{
+    position: relative;
+    left: 26%;
+}
+.home3-p3{
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+    background-color: #381fd1;
+    color: #fff;
+    border: 1px solid #381fd1;
+    display: inline-block;
+    transform: skew(-26deg);   
+}
+.home3-p4{
+    margin: auto;
+    margin-top: -1%;
+}
+////card
+.Ho3-Cards{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.home3Card{
+    height: 100%;
+    width: 15%;
+    margin: 2%;
+}
+.Home3Card-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home3Card-p1{
+    color: #381fd1;
+    font-size: 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.Home3Card-p2{
+    color: #381fd1;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 110%;
+}
+.Home3Card-p3{
+    font-size: 1.1rem;
+width: 90%;
+
+}
+.Home3-btn{
+    margin-top: 2%;
+    height: 30%;
+    width: 100%;
+    cursor: pointer;
+    background-color: #edede0;
+    >a{
+        cursor: pointer;
+
+    }
+}
+.home3-button{
+    // margin-bottom: 10%;
+    height: 20%;
+    width: 100%;
+    border: 2px solid transparent;
+    background-color: #381fd1;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    margin: auto auto;
+    padding: 8px 24px;
+    position: relative;
+    left: 45%;
+    font-size:1.3rem ;
+    &:hover{
+        
+        background-color: #5c43ff;
+}
+}

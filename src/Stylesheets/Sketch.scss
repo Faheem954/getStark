@@ -1,0 +1,120 @@
+
+.sketch-head{
+  
+    
+    // background-color: #381Fd1;
+    background-image: url("https://images.getstark.co/marketing/headers/gradient-bg.webp");
+    background-size:cover;
+    width: 100%;
+    // margin:0% 5%;
+    background-repeat: no-repeat;
+    color: white;
+    //
+    >.sketch-head-nav{
+        width: 100%;
+    }
+    ///
+>.sketch-head-p1{
+    color:#FED863;
+    margin-left:15%;
+    margin-top: 5%;
+font-size: 1.2rem;
+}
+//
+>.sketch-head-h1{
+    font-size: 6rem;
+    line-height: 1.2;
+    letter-spacing: -0.2rem;
+    margin-left: 15%;
+    margin-top:1%;
+    color:white;
+    font-weight:900;
+}
+//
+>.sketch-head-p2{
+    font-size: 1.4rem;
+    width: 40%;
+    margin:1%;
+    margin-left:15%;
+}
+///
+>.sketch-head-btn{
+margin-top:2%;
+margin-left:-10%;
+padding: 2rem;
+display: flex;
+// margin-bottom: 25%;
+
+>.sketch-head-btn-1{
+background-color: #FedB63;
+width: 20%;
+height:45px;
+margin-left:25%;
+border:2px solid #FedB63;
+border-radius: 7px;
+&:hover{
+    background-color: #ffe694;   
+}
+}
+
+>.sketch-head-btn-2{
+    // height: 50%;
+    height:45px;
+    width: 20%;
+  
+    margin-left:5%;
+    border:2px solid #FedB63;
+    border-radius: 7px;
+    &:hover{
+    background-color: #FedB63;}
+}
+    ///
+    >.sketch-head-svg{
+        height: 150%;
+        margin-top:-1%;
+        margin-left: 2%;
+    transform:skew(-30deg);
+    }
+}
+//
+
+
+}
+///head done
+.sketch-home{
+    height: 100%;
+    background-color: #f6f6eb;
+    border: 1px solid green;
+    >.sketch-home-h2{
+    
+    >h2{
+        margin-top: 5%;
+        text-align: center;
+        font-size: 3rem;
+        color: #10284b;
+        >hlight{
+            background-color: #fedb63;
+            border:1px solid transparent ;
+        display: inline-block;
+        transform: skew(-16deg);
+        }
+    }
+ .sketch-home-icons{
+margin-top: 1%;
+ width: 5%;
+ height: 100%;
+//  margin-top: 6%;
+ margin-left: 30%;
+ margin-right: 20%;
+ margin-bottom: 5%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+    
+    }
+.sketch-icons-img{
+   &:hover{ transform: skew(16deg);
+}}    
+    }

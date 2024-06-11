@@ -1,0 +1,204 @@
+import React,{useState} from 'react'
+import "../../../Stylesheets/SecurityOverview.scss"
+import Navbar from '../../Header/Navbar/Navbar'
+import { Link } from 'react-router-dom'
+import Footer from '../../Footer/Footer'
+
+
+const UsecasesDropDown2=()=>{
+    return(
+    <div className='UsecasesDropdown2'>
+  <div height="220px" width="30%" className="UsecasesDropDown2Element1">
+  <img height="150px" width="100%" src="https://res.cloudinary.com/stark-lab/image/upload/v1711412084/medium_Header_60a6fb72ce.png"/>
+  <p className='UsecasesDropDown2Element1-p'>Introducing Sidekick V2 and Stark Premium to boost your design and development workflow</p>
+  <Link style={{textDecoration:"none"}}><p className='UsecasesDropDown2Element1-link'>Read More on the Blog</p></Link>
+  </div>
+  
+  <div className="UsecasesDropDown2Element2">
+  <div className="UsecasesDropDown2ElementSet">
+  <Link style={{textDecoration:"none"}}>
+    <p className='Usecases2Dropdown-h1'>Blog</p>
+    <p className='usecases2Dropdown-p'>Read about the latest updates to Stark and articles from our team.</p>
+   </Link>
+  </div>
+  <div className="UsecasesDropDown2ElementSet">
+  <Link style={{textDecoration:"none"}}>
+    <p className='Usecases2Dropdown-h1'>Library</p>
+    <p className='usecases2Dropdown-p'>Learn about all things accessibility and inclusive design.</p>
+   </Link>
+  </div>
+  <div className="UsecasesDropDown2ElementSet">
+  <Link style={{textDecoration:"none"}}>
+    <p className='Usecases2Dropdown-h1'>The WCAG Explained</p>
+    <p className='usecases2Dropdown-p'>Simple explanations of every WCAG criteria.</p>
+   </Link>
+  </div>
+  </div>
+  
+  <div className="UsecasesDropDown2Element3">
+  
+  <div className="UsecasesDropDown2ElementSet">
+  <Link style={{textDecoration:"none"}}>
+    <p className='Usecases2Dropdown-h1'>Support Center</p>
+    <p className='usecases2Dropdown-p'>Find answers of questions & tips and tricks on how to use Stark.</p>
+   </Link></div>
+  
+  <div className="UsecasesDropDown2ElementSet">
+  <Link style={{textDecoration:"none"}}>
+    <p className='Usecases2Dropdown-h1'>Community</p>
+    <p className='usecases2Dropdown-p'>Join more than 3,500 accessibility folks from around the world.</p>
+   </Link></div>
+  
+  <div className="UsecasesDropDown2ElementSet">
+  <Link style={{textDecoration:"none"}}>
+    <p className='Usecases2Dropdown-h1'>Stark White Paper</p>
+    <p className='usecases2Dropdown-p'>Managing and growing your accessibility posture at any scale.</p>
+   </Link></div>
+  
+  
+  </div>
+    </div>)
+  }
+  
+  const UsecasesDropdown1=()=>{
+    
+     return(
+      <div className='UsecasesDropdown1'   >
+  
+  <div  className='UsecasesDropdown-element1'>
+  <Link style={{textDecoration:"none"}}>
+    <p className='UsecasesDropdown-h1'>Designer</p>
+    <p className='usecasesDropdown-p'>Create accessible designs in record time right in Figma & Sketch.</p>
+   </Link>
+  </div>
+  <div className='UsecasesDropdown-element2'>
+  <Link style={{textDecoration:"none"}}>
+  <p className='UsecasesDropdown-h1'>Product Managers</p>
+    <p className='usecasesDropdown-p'>Manage the accessibilities in real-time across all of your projects.</p>
+   </Link>
+  </div>
+  <Link style={{textDecoration:"none"}}>
+  <span className='UsecasesDropdown-Img' width="10%" >
+  <img style={{marginLeft:'25%',padding:'0px',height:"100px",width:"100px"}}  src="https://images.getstark.co/marketing/accessibility-posture-white-paper/white-paper-callout.png?updatedAt=1709743608630"/>
+  <p className='UsecasesDropdown-Img-p1' style={{marginLeft:'2%'}}>Read our new white paper</p>
+  <p className='UsecasesDropDown-Img-p2'>Managing a modern accessibility posture and growing accessibility maturity at any scale</p>
+  </span>
+  </Link>
+  <div className='UsecasesDropdown-element3'>
+  <Link style={{textDecoration:"none"}}>
+    <p className='UsecasesDropdown-h1'>Developers</p>
+    <p className='usecasesDropdown-p' >Test and audit your code from early implementation to live product.</p>
+   </Link>
+  </div>
+   {/*  to={require("/")} >*/}
+   <div className='UsecasesDropdown-element4' >
+  
+  <Link style={{textDecoration:'none'}} >
+    <p className='UsecasesDropdown-h1' style={{marginLeft:"10%"}}>Compliance Managers</p>
+    <p className='usecasesDropdown-p'>Monitor, manage and audit your accessibility posture in one place.</p>
+  </Link>
+  </div> 
+  
+   </div>   
+    )
+  }
+
+
+
+
+
+const SecurityOverview = () => {
+    const [dropdown1 ,setDropdown1] =useState("false")
+    const [dropdown2 ,setDropdown2] =useState("false")
+  function handleMouseEnter(){return setDropdown1(true)}
+  function handleMouseLeave(){return setDropdown1(false)}
+  function handleMouseEnter2(){return setDropdown2(true)}
+  function handleMouseLeave2(){return setDropdown2(false)}
+  
+
+
+
+  return (
+    
+    <div className='securityoverview'>
+    <div className='securityoverview-head'>
+    {/* navbar start */}<div className='navbar'>
+<span className='Navbar-icon'>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Home"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM15.4225 22.7124V25.607C18.1716 25.7753 20.8606 24.7551 22.806 22.8056C26.5647 19.0469 26.5647 12.9531 22.806 9.19477C22.4644 8.85297 22.0977 8.53716 21.709 8.25L19.6336 10.3252L10.3245 19.6332C8.61894 16.9674 8.99804 13.4741 11.2358 11.2362C12.6405 9.8287 14.5963 9.11525 16.5775 9.28762V6.39295C13.8284 6.22472 11.1394 7.24504 9.19403 9.19458C5.43532 12.9532 5.43532 19.047 9.19403 22.8054C9.53564 23.1472 9.90231 23.463 10.291 23.7501L12.3663 21.675L21.6754 12.3668C23.381 15.0325 23.0019 18.5259 20.7641 20.7638C19.3594 22.1713 17.4036 22.8847 15.4225 22.7124Z" fill="currentColor"></path></svg> 
+</span><span className='Navbar-nav-a'>
+<Link to = './mk'  onMouseEnter={ handleMouseEnter} onMouseLeave={handleMouseLeave}>  USE CASES  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-1"><path d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z" fill="currentColor"></path></svg></Link>
+<Link to='/1' >PRICING</Link>
+<Link to='/2'>SUPPORT</Link>
+<Link to='/3'  onMouseEnter={ handleMouseEnter2} onMouseLeave={handleMouseLeave2}>RESOURCES  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-1"><path d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z" fill="currentColor"></path></svg>
+</Link>
+</span>
+<span className='Navbar-nav-b'>
+    {/* <button className='nav-btn-a'>LOGIN</button> */}
+<Link className='nav-btn-a' to='4'>LOG IN</Link>
+<Link className='nav-btn-b' to='/5'>START FREE TRIAL</Link>
+    {/* <button className='nav-btn-b'>START FREE TRIAL</button> */}
+    {/* {dropdown1 && <UsecasesDropdown1 onMouseEnter={ handleMouseEnter} onMouseLeave={handleMouseLeave}/>} */}
+{/* {dropdown2 && <UsecasesDropDown2 onMouseEnter={ handleMouseEnter2} onMouseLeave={handleMouseLeave2}/>} */}
+
+
+</span>    </div>{/* navbar end */}
+
+    
+<div className='securityoverview-head-p1'>
+ ALMOST THERE!
+</div>
+<div className="securityoverview-head-h1">
+Security
+<div> Overview</div>
+</div> 
+    </div>{/* securtyoverview head */}
+    
+<div className='securtyoverview-home'>
+
+<p className='securityoverview-home-text'>Last updated: December 4, 2023</p>
+<h2 className='securityoverview-home-heading'>About</h2>
+<p className='securityoverview-home-text'>This overview provides details about security practices we follow and how we secure your data at Stark. Additionally, you'll find information on GDPR requests and how to reach out for more details for anything not covered below</p>
+
+<h2 className='securityoverview-home-heading'>Security Practices </h2>
+<ul className='securityoverview-home-text'>
+    <li className='securityoverview-home-text'>Stark regularly audits changes, additions, and removals to the product throughout its development lifecycle.</li>
+    <li className='securityoverview-home-text'> Manual code reviews are performed in addition to automated tooling used. </li>
+    <li className='securityoverview-home-text'>Open-source alerts are in place to address any identified security issues in the third-party code we utilize </li>
+    <li className='securityoverview-home-text'>Monitoring and alerts are in place for all aspects of Stark's servers and infrastructure to detect potential abuse. </li>
+</ul>
+
+<h2 className='securityoverview-home-heading'>How We Secure Your Data</h2>
+<ul>
+  <li className='securityoverview-home-text'>Data is encrypted in transit using TLS. At rest, your data is encrypted with AES-256 block-level storage encryption.</li>  
+  <li className='securityoverview-home-text'>Authorization controls are in place throughout to ensure access to your data is limited only to you. Likewise, similar controls are in place on the team level.</li>  
+  <li className='securityoverview-home-text'>Stark uses Stripe for its handling of payment processing. Financial data is not stored on our servers. Read more about Stripe’s Security.</li>  
+  <li className='securityoverview-home-text'>Stark uses Mixpanel for its handling of analytics data. In keeping with our clear separation of user data, personally identifiable information is not stored within Mixpanel. Additionally, Stark does not collect potentially sensitive information relating to your work (documents, images, metadata, etc.) for analytics purposes. Read more about Mixpanel’s security.</li>  
+</ul>
+
+<h2 className='securityoverview-home-heading'>Subprocessors</h2>
+<p className='securityoverview-home-text'>To view a list of our subprocessors, please visit our Trust Center.</p>
+
+<h2 className='securityoverview-home-heading'>Vulnerability Disclosure Program</h2>
+<p className='securityoverview-home-text'>If you've found a vulnerability or security issue, we'd appreciate your feedback; please reach out to us at security@getstark.co so we can work to address it.</p>
+
+<h2 className='securityoverview-home-heading'>Compliance</h2>
+<p className='securityoverview-home-text'>Stark meets industry standards for privacy, data protection, and security. View our SOC 2 Type 2 report in our Trust Center and how we've mapped our privacy program to GDPR.</p>
+<img height="200px" width="200px" src="https://images.getstark.co/marketing/logos/soc2type2.png?updatedAt=1701732722866"></img>
+<img style={{marginLeft:'100px'}} height="200px" width="200px" src="https://images.getstark.co/marketing/logos/gdpr.png?updatedAt=1701732722827"></img>
+
+<h2 className='securityoverview-home-heading'>More Info</h2>
+<p className='securityoverview-home-text'>Still have questions? Reach out to us at support@getstark.co. Also, be sure to check out the following links:</p>
+<ul>
+    <li ><a className='securityoverview-home-text' href='/'>Privacy Policy</a></li>
+    <li><a className='securityoverview-home-text' href='/'>Cookie Policy</a></li>
+    <li><a className='securityoverview-home-text' href='/'>Terms of Service</a></li>
+    <li><a className='securityoverview-home-text' href='/'>GDPR</a></li>
+</ul>
+
+    </div>
+    <Footer/>
+</div>
+  )
+}
+
+export default SecurityOverview

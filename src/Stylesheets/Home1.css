@@ -1,0 +1,13 @@
+
+.home1{
+    background-color: #edede0;
+}
+
+.home1 > img{
+/* .home1 { */
+    /* background-color: #edede0; */
+    height: 120%;
+    width: 70%;
+    margin: 10% ;
+    margin-top: -11% ;
+}
